@@ -1,0 +1,18 @@
+create database accountinfo ;
+
+create table users ( 
+    username varchar(22) primary key ,
+     password varchar(22)
+     );
+
+create table info ( 
+    username varchar(22),
+    email varchar(22) , 
+    dob date ,
+    game1h integer default 0,
+    game2h integer default 0, 
+    game3h integer default 0 
+    );
+
+
+Note : change pswd before use pswd is in title file.
